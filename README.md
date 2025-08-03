@@ -1,12 +1,44 @@
-# React + Vite
+DapurPintar Frontend 🍽️
+Ini adalah antarmuka pengguna (frontend) untuk aplikasi DapurPintar, dibangun menggunakan React dan Vite. Aplikasi ini menyediakan UI yang bersih dan interaktif bagi pengguna untuk mengelola "dapur" virtual mereka, menemukan resep yang bisa dimasak, dan melihat detail instruksi memasak.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Fitur Utama
+Antarmuka Modern: Dibangun dengan React dan Vite untuk pengalaman pengguna yang cepat dan responsif.
 
-Currently, two official plugins are available:
+Navigasi Multi-Halaman: Menggunakan React Router untuk halaman Login, Registrasi, Pantry, dan Detail Resep.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Manajemen State Global: Menggunakan React Context untuk mengelola status autentikasi pengguna di seluruh aplikasi.
 
-## Expanding the ESLint configuration
+Manajemen Pantry Interaktif: Pengguna bisa menambah dan menghapus bahan secara real-time tanpa perlu me-refresh halaman.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Penemuan Resep Visual: Menampilkan hasil pencarian resep dalam format kartu yang menarik dan mudah dinavigasi.
+
+Halaman Detail Resep: Halaman khusus untuk menampilkan gambar, daftar bahan, dan instruksi memasak yang terformat dengan baik.
+
+🛠️ Teknologi yang Digunakan
+Library: React 18
+
+Build Tool: Vite
+
+Routing: React Router DOM
+
+HTTP Client: Axios
+
+State Management: React Context
+
+🚀 Instalasi & Setup Lokal
+Penting: Pastikan backend DapurPintar API sudah berjalan di http://127.0.0.1:8000 sebelum menjalankan frontend.
+
+Clone repositori ini:
+
+git clone https://github.com/NAMA_ANDA/dapurpintar-frontend.git
+cd dapurpintar-frontend
+
+Install dependensi NPM:
+
+npm install
+
+Jalankan server development:
+
+npm run dev
+
+Aplikasi sekarang berjalan di http://localhost:5173 (atau port lain yang tersedia).
